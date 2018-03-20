@@ -25,7 +25,7 @@
   
   * To get help of using Git, you can simply type 
   
-  $ git help <name>  
+    ![config](images/s9.PNG)
  
  (**Of course!** you won't type < or > )
  
@@ -38,6 +38,9 @@
  $ git config --global user.email "youremail"
  
  Ex: $ git config --global user.name "JohnR" and  $ git config --global user.email "john@email.com"
+
+* Use the following command to check you have succesfully conneted to your GitHub account.
+   ![config](images/s10.PNG)
 
  
 * Once you connect to your GitHub account, now you can go to your GitHug account and create a new repository.
