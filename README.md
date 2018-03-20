@@ -1,7 +1,7 @@
 # Steps for using Git in Windows
 
 First install [Git](http://git-scm.com/download/win) into your windows machine.Once you install ".exe" file, click on it and install Git on your computer. The steps are simple, it will automatically direct you through the installation process. Simple ! follow the steps,
- ## Step 1
+
  ![s1](images/s1.PNG)
  
  
@@ -13,7 +13,9 @@ First install [Git](http://git-scm.com/download/win) into your windows machine.O
   
   * To get help of using Git, you can simply type 
   
-  $ git help <name>  (Of course you won't type < or > !)
+  $ git help <name>  
+ 
+ (**Of course!** you won't type < or > )
  
  Example:  If you want to help with using add in Git,  $ git config add
  
