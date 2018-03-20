@@ -67,6 +67,9 @@ $git diff
  $git commit -m "commiting the changes"
  
  * check again $git diff then nothing will be appear after commiting the changes made.
+ 
+ 
+ - Now you can go to your GitHub account and check it's been updated.
 
 
 
