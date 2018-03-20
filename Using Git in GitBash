@@ -1,0 +1,18 @@
+This file contains steps using GitBash editor
+
+- To change a folder 
+$cd folderName
+
+- To go back one step in folders
+$cd ..
+
+- To see the list of files in the current folder
+$ls 
+
+- To check the path 
+$pwd
+
+- To initialize a git project(repository) in the current folder
+$git init
+
+
