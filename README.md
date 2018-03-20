@@ -1,2 +1,3 @@
-# UsingGit
-How to use Git bash to work on GitHub 
+# Steps for using Git in Windows
+
+First install [Git](http://git-scm.com/download/win) into your windows machine.
