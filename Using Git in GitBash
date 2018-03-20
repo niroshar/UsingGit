@@ -15,4 +15,38 @@ $pwd
 - To initialize a git project(repository) in the current folder
 $git init
 
+- To see what is in this repository and all the hidden file
+$ls -la
 
+- Create a text file in text doc and save it in the current folder 
+
+- To add the changes to the project and enter 
+$git add .
+
+- You need to commit to GitHut
+$git commit -m "This is the first commit"
+
+- Do changes in the previous created file and save text file. after making changes commit it adding a msg with what you have changed.
+
+
+- How to view your commit history
+$git log
+
+- To view other people's commits (you don't have to enter the whole name, entering only a part of the name is enough)
+$git log --author="nirosha"
+
+
+- To understand how changes are made
+$git status 
+
+If it says "On branch master, nothing to commit, working tree clean" meaning that there are no changes done
+
+
+* If you have done any changes it will show what are the changes when you type $git status. This will work only if you have commited the folder before.
+
+- To add another file to git
+$git add filename.txt
+
+
+
+$
