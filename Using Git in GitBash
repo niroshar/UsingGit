@@ -44,9 +44,14 @@ If it says "On branch master, nothing to commit, working tree clean" meaning tha
 
 * If you have done any changes it will show what are the changes when you type $git status. This will work only if you have commited the folder before.
 
-- To add another file to git
+- To add another file to **staging area** , Note that this file is not yet saved in the repository. You have to commit this file to see the file in GitHub account.
 $git add filename.txt
 
 
+- will be 
+$git status 
 
-$
+- to commit
+$git commit -m "adding the second file"
+
+$git status
