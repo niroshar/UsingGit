@@ -55,3 +55,18 @@ $git status
 $git commit -m "adding the second file"
 
 $git status
+
+- How to view the changes that made to a file
+$git status 
+
+Then it will show in red text while file is edited but it is not commited. 
+When you enter the following command in GitBash it will show the content of what has been changed.
+$git diff
+
+- now commit the change as follows
+ $git commit -m "commiting the changes"
+ 
+ * check again $git diff then nothing will be appear after commiting the changes made.
+
+
+
