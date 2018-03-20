@@ -25,12 +25,8 @@
   
   * To get help of using Git, you can simply type 
   
-    ![config](images/s9.PNG)
- 
- (**Of course!** you won't type < or > )
- 
  Example:  If you want to help with using add in Git,  $ git config add
- 
+    ![config](images/s9.PNG)
  
  * Connecting to your GitHub account if you have already created a GitHub account in  [GitHub website](https://github.com/join?source=header-home)
  
