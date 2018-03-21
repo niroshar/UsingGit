@@ -1,7 +1,7 @@
 This file contains steps using GitBash editor
 
 - To change a folder 
-<mark>$cd folderName</mark>
+`$cd folderName`
 
 - To go back one step in folders
 $cd ..
