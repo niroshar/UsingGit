@@ -1,4 +1,4 @@
-This file contains steps using GitBash editor
+Steps for using GitBash editor
 
 - To change a folder 
 `$cd folderName`
@@ -42,7 +42,7 @@ This file contains steps using GitBash editor
 - To understand how changes are made
 `$git status `
 
-If it says "On branch master, nothing to commit, working tree clean" meaning that there are no changes done
+If it says `"On branch master, nothing to commit, working tree clean"` meaning that there are no changes done
 
 
 * If you have done any changes it will show what are the changes when you type `$git status`. This will work only if you have commited the folder before.
@@ -51,7 +51,7 @@ If it says "On branch master, nothing to commit, working tree clean" meaning tha
 `$git add filename.txt`
 
 
-- will be 
+* To view the files in the git 
 `$git status` 
 
 - to commit
@@ -66,7 +66,7 @@ Then it will show in red text while file is edited but it is not commited.
 When you enter the following command in GitBash it will show the content of what has been changed.
 `$git diff`
 
-- now commit the change as follows
+Now commit the change as follows
  `$git commit -m "commiting the changes"`
  
  * check again $git diff then nothing will be appear after commiting the changes made.
