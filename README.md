@@ -25,15 +25,15 @@
   
   * To get help of using Git, you can simply type 
   
- Example:  If you want to help with using add in Git,  $ git config add
+ Example:  If you want to help with using add in Git,  `$ git config add`
     ![config](images/s9.PNG)
  
  * Connecting to your GitHub account if you have already created a GitHub account in  [GitHub website](https://github.com/join?source=header-home)
  
- $ git config --global user.name "username"
- $ git config --global user.email "youremail"
+ `$ git config --global user.name "username"`
+ `$ git config --global user.email "youremail"`
  
- Ex: $ git config --global user.name "JohnR" and  $ git config --global user.email "john@email.com"
+ Ex: `$ git config --global user.name "JohnR"` and  `$ git config --global user.email "john@email.com"`
 
 * Use the following command to check you have succesfully conneted to your GitHub account.
    ![config](images/s10.PNG)
