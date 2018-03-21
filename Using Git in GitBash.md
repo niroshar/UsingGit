@@ -20,10 +20,13 @@ $ls -la
 
 - Create a text file in text doc and save it in the current folder 
 
-- To add the changes to the project and enter 
+- To add all the changes to the project
 $git add .
 
-- You need to commit to GitHut
+-To add changes in one file
+$git add filename 
+
+- After adding the file, you need to commit it to publish in GitHut
 $git commit -m "This is the first commit"
 
 - Do changes in the previous created file and save text file. after making changes commit it adding a msg with what you have changed.
@@ -70,6 +73,24 @@ $git diff
  
  
  - Now you can go to your GitHub account and check it's been updated.
+ 
+ - Once you have committed the file, you can link the file to repository in the GitHub. In order to do that, go to the repository in your GitHub account and find the "https:......" link. Now go to GitBash and enter the following 
+ $git remote add <NickName> https://github.com/username/repoName.git
+ 
+ - After that, you need to push it to load it into your GitHub account using following command in GitBash. You will be asked to enter user name and password for that.  When it is done, you can check the $git status to see any files are in the **Staging area**.
+ 
+ $git push -u <NickName> master
+ 
+ - If you haven't selected to create the **"README.md"** file when creating your repository, you can create the **"README.md"** as follows
+ 
+ $echo "# repoName" >> README.md
+ $touch README.md
+ $git add README.md
+ $git commit -m "README.md edited"
+ $git push <NickName>
+ $git status
+ 
+ 
 
 
 
