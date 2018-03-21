@@ -45,7 +45,7 @@ This file contains steps using GitBash editor
 If it says "On branch master, nothing to commit, working tree clean" meaning that there are no changes done
 
 
-* If you have done any changes it will show what are the changes when you type $git status. This will work only if you have commited the folder before.
+* If you have done any changes it will show what are the changes when you type `$git status`. This will work only if you have commited the folder before.
 
 - To add another file to **staging area** , Note that this file is not yet saved in the repository. You have to commit this file to see the file in GitHub account.
 `$git add filename.txt`
@@ -84,10 +84,15 @@ When you enter the following command in GitBash it will show the content of what
  - If you haven't selected to create the **"README.md"** file when creating your repository, you can create the **"README.md"** as follows
  
  `$echo "# repoName" >> README.md`
+ 
  `$touch README.md`
+ 
  `$git add README.md`
+ 
  `$git commit -m "README.md edited"`
+ 
  `$git push <NickName>`
+ 
  `$git status`
  
  
