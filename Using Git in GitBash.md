@@ -72,9 +72,14 @@ Now commit the change as follows
  * check again $git diff then nothing will be appear after commiting the changes made.
  
  
- - Now you can go to your GitHub account and check it's been updated.
+### Create GitHub Repository
+
+- Now, you may go to your github profile and create a new respository using `+` sign with down arrow next tp your profile lego as shown below:
+ ![Create a repository](images/repoCreate.JPG)
  
- - Once you have committed the file, you can link the file to repository in the GitHub. In order to do that, go to the repository in your GitHub account and find the "https:......" link. Now go to GitBash and enter the following 
+ 
+ Next, you will see a weblink related to that repository, which starts with `https://github.com/username/repoName.git`. Now it is time for you to upload your files into your github account. First, you should commit the relevant file as I described above. Once it is done, you can link the file to repository in the GitHub. In order to do that, go to GitBash and give the link of your repository.
+ 
  `$git remote add <NickName> https://github.com/username/repoName.git`
  
  - After that, you need to push it to load it into your GitHub account using following command in GitBash. You will be asked to enter user name and password for that.  When it is done, you can check the $git status to see any files are in the **Staging area**.
