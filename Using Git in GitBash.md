@@ -1,45 +1,51 @@
-Steps for using GitBash editor
+### Start with GitBash editor
 
-- To change a folder 
+To change a folder 
 `$cd folderName`
 
-- To go back one step in folders
+To go back one step in folders
 `$cd ..`
 
-- To see the list of files in the current folder
+To see the list of files in the current folder
 `$ls` 
 
-- To check the path 
+To check the path 
 `$pwd`
 
-- To initialize a git project(repository) in the current folder
+
+### Initialize Repository
+
+First, you need to initialize the git project (repository) in the working folder of your computer. As ane example, if the project folder is `C/Users/GitHub`, first you have to change the working directory to that folder using `BigBash` command prompt. Then, you initialize using the following command.
+
 `$git init`
 
-- To see what is in this repository and all the hidden file
+To see what is in this repository and all the hidden file
 `$ls -la`
 
-- Create a text file in text doc and save it in the current folder 
+ Create a text file in text doc and save it in the current folder 
 
-- To add all the changes to the project
+To add all the changes to the project
 `$git add .`
 
--To add changes in one file
+To add changes in one file
 `$git add filename` 
 
-- After adding the file, you need to commit it to publish in GitHut
+### Commit files
+
+After adding the file, you need to commit it to publish in GitHut
 `$git commit -m "This is the first commit"`
 
-- Do changes in the previous created file and save text file. after making changes commit it adding a msg with what you have changed.
+Do changes in the previous created file and save text file. after making changes commit it adding a msg with what you have changed.
 
 
-- How to view your commit history
+How to view your commit history
 `$git log`
 
-- To view other people's commits (you don't have to enter the whole name, entering only a part of the name is enough)
+To view other people's commits (you don't have to enter the whole name, entering only a part of the name is enough)
 `$git log --author="nirosha"`
 
 
-- To understand how changes are made
+To understand how changes are made
 `$git status `
 
 If it says `"On branch master, nothing to commit, working tree clean"` meaning that there are no changes done
@@ -47,19 +53,12 @@ If it says `"On branch master, nothing to commit, working tree clean"` meaning t
 
 * If you have done any changes it will show what are the changes when you type `$git status`. This will work only if you have commited the folder before.
 
-- To add another file to **staging area** , Note that this file is not yet saved in the repository. You have to commit this file to see the file in GitHub account.
+To add another file to **staging area** , Note that this file is not yet saved in the repository. You have to commit this file to see the file in GitHub account.
 `$git add filename.txt`
 
+ *Note that* every time you make some changes to the files in our local directory, it is needed to commit, and push in order to upload the edited files to github repository. Remember to add a comment when you commit, so that other people can easily figure out what changes you have made to that file.
 
-* To view the files in the git 
-`$git status` 
-
-- to commit
-`$git commit -m "adding the second file"`
-
-`$git status`
-
-- How to view the changes that made to a file
+How to view the changes that made to a file
 `$git status `
 
 Then it will show in red text while file is edited but it is not commited. 
@@ -74,7 +73,7 @@ Now commit the change as follows
  
 ### Create GitHub Repository
 
-- Now, you may go to your github profile and create a new respository using `+` sign with down arrow next tp your profile lego as shown below:
+Now, you may go to your github profile and create a new respository using `+` sign with down arrow next tp your profile lego as shown below:
 
  ![Create a repository](images/repoCreate.JPG)
  
@@ -83,11 +82,11 @@ Now commit the change as follows
  
  `$git remote add <NickName> https://github.com/username/repoName.git`
  
- - After that, you need to push it to load it into your GitHub account using following command in GitBash. You will be asked to enter user name and password for that.  When it is done, you can check the $git status to see any files are in the **Staging area**.
+ After that, you need to push it to load it into your GitHub account using following command in GitBash. You will be asked to enter user name and password for that.  When it is done, you can check the $git status to see any files are in the **Staging area**.
  
  `$git push -u <NickName> master`
  
- - If you haven't selected to create the **"README.md"** file when creating your repository, you can create the **"README.md"** as follows
+ If you haven't selected to create the **"README.md"** file when creating your repository, you can create the **"README.md"** as follows
  
  `$echo "# repoName" >> README.md`
  
