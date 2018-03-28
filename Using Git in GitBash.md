@@ -75,6 +75,7 @@ Now commit the change as follows
 ### Create GitHub Repository
 
 - Now, you may go to your github profile and create a new respository using `+` sign with down arrow next tp your profile lego as shown below:
+
  ![Create a repository](images/repoCreate.JPG)
  
  
