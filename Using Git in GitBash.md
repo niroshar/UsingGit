@@ -34,6 +34,7 @@ Now, you can make any changes to the files in your local computer, use the same 
 
 
 **Some Commands**
+
 When you enter the following command in GitBash it will show the content of what has been changed.
 `$git diff`
 
