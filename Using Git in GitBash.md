@@ -72,7 +72,7 @@ Now, you may go to your github profile and create a new respository using `+` si
  ![Create a repository](images/repoCreate.JPG)
  
  
- Next, you will see a weblink related to that repository, which starts with `https://github.com/username/repoName.git`. Now it is time for you to upload your files into your github account. First, you should commit the relevant file as I described above. Once it is done, you can link the file to repository in the GitHub. In order to do that, go to GitBash and give the link of your repository.
+ Next, you will see a weblink related to that repository, which starts with `https://github.com/username/repoName.git`. Now it is time for you to upload your files into your github account. First, you should add the file, then commit as I described above. Once it is done, you can link the file to repository in the GitHub. In order to do that, go to GitBash and give the link of your repository.
  
  `$git remote add <NickName> https://github.com/username/repoName.git`
  
