@@ -30,7 +30,7 @@ If (1) or (2) are completed, now it is time to add the files to the repository: 
 
 Now, you can make any changes to the files in your local computer, use the same procedure to upload the files to the repository. If you have done any changes it will show what are the changes when you type `$git status`. This will work only if you have commited the folder before. After adding the file, use `git status` to check the staus, it will show the file name in red text while this file is edited but it is not commited (It is in **staging area**, not saved in the repository yet). You have to commit this file to see the file in GitHub account.
 
-*Note that* every time you make some changes to the files in our local directory, it is needed to color.Blue(commit), and color.Blue("push") in order to upload the edited files to github repository. Remember to add a comment when you commit, so that other people can easily figure out what changes you have made to that file.
+*Note that* every time you make some changes to the files in our local directory, it is needed to **commit**, and **push** in order to upload the edited files to github repository. Remember to add a comment when you commit, so that other people can easily figure out what changes you have made to that file.
 
 
 **Some Commands**
