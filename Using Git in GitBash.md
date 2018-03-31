@@ -80,7 +80,7 @@ Now, you may go to your github profile and create a new respository using `+` si
  
  `$git push -u <NickName> master`
  
- If you haven't selected to create the **"README.md"** file when creating your repository, you can create the **"README.md"** as follows
+ * If you haven't selected to create the **"README.md"** file when creating your repository, you can create the **"README.md"** as follows
  
  `$echo "# repoName" >> README.md`
  
