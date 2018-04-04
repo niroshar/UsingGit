@@ -33,6 +33,22 @@ Now, you can make any changes to the files in your local computer, use the same 
 *Note that* every time you make some changes to the files in our local directory, it is needed to **commit**, and **push** in order to upload the edited files to github repository. Remember to add a comment when you commit, so that other people can easily figure out what changes you have made to that file.
 
 
+### Upload a folder to the repository
+
+Suppose that you already created a repository in `GitHub.com`. Now, create a new directory in your local computer and copy the folder to that directory. Use `GitBash` to change the current directory to this new directory.
+
+Now it is time to initialize and add the folder to `GitHub repository`. Use the following commands in GitBash 
+
+- `git init`
+- `git add folderName`
+- `git commit -m "Include your own comment"`
+- `git remote add origin https://github.com/username/repoName.git`
+- `git push -u origin master` 
+
+
+Now go and refresh your `GitHub` profile, the folder will be uploaded into the corresponding repository.
+
+
 **Some Commands**
 
 When you enter the following command in GitBash it will show the content of what has been changed.
